@@ -1,6 +1,10 @@
-# <ins>Console Finances</ins>
+# <p align="center"><ins>Console Finances</ins></p>
 
-![image](https://github.com/HJandu/Console-Finances/assets/116304118/7e39a760-6bdb-4960-bddd-25c7714a9659)
+<p align="center">
+  <img width="100%" height="400" src="https://github.com/HJandu/Console-Finances/assets/116304118/7e39a760-6bdb-4960-bddd-25c7714a9659">
+</p>
+
+
 
 
 
