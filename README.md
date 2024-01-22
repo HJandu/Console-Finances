@@ -1,8 +1,8 @@
 # <ins>Console Finances</ins>
 
-<p align="center">
-<img src="images/profit_loss.jpeg" width=100% height=400
-/p>
+![image](https://github.com/HJandu/Console-Finances/assets/116304118/7e39a760-6bdb-4960-bddd-25c7714a9659)
+
+
 
 Code for analyzing the financial records of a company, using a given dataset.
 
