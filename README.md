@@ -16,9 +16,9 @@ In this project I wrote a JavaScript code that analyzes the records to calculate
 
 * The average of the changes in Profit/Losses over the entire period.
 
-* I track what the total change in profits is from month to month and then found the average.
+  * I tracked what the total change in profits is from month to month and then found the average.
 
-`(Total/(Number of months - 1))`
+  * `(Total/(Number of months - 1))`
 
 * The greatest increase in profits (date and difference in the amounts) over the entire period.
 
