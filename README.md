@@ -1,4 +1,9 @@
-# Console-Finances
+# <ins>Console Finances</ins>
+
+<p align="center">
+<img src="images/profit_loss.jpeg" width=100% height=400
+/p>
+
 Code for analyzing the financial records of a company, using a given dataset.
 
 
