@@ -140,9 +140,15 @@ console.log(greatLoss);
 
 // prints the final results to the console
 console.log(`Financial Analysis 
-----------------
+
+----------------------------------
+
 Total Months: ${months}
+
 Total: $ ${totalProfitLoss}
+
 Average Change: ${roundAve}
+
 Greatest Increase in Profits/Losses: ${greatProfit[0]} ${greatProfit[1]}
+
 Greatest Decrease in Profits/Losses: ${greatLoss[0]} ${greatLoss[1]}`);                          
