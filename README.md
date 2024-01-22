@@ -6,7 +6,7 @@
 
 
 
-I have built a Code for analyzing the financial records of a company, using a given dataset. The dataset composed of arrays with two fields: Date and Profit/Losses.
+I have built a Code for analyzing the financial records of a company, using a given dataset. The dataset composed of arrays with two fields: Date and Profit/Losses, which can be seen in the index.js file. 
 
 In this project I wrote a JavaScript code that analyzes the records to calculate each of the following:
 
@@ -20,10 +20,12 @@ In this project I wrote a JavaScript code that analyzes the records to calculate
 
 `(Total/(Number of months - 1))`
 
-The greatest increase in profits (date and difference in the amounts) over the entire period.
+* The greatest increase in profits (date and difference in the amounts) over the entire period.
 
-The greatest decrease in losses (date and difference in the amounts) over the entire period.
+* The greatest decrease in losses (date and difference in the amounts) over the entire period.
 
-When you open your code in the browser your resulting analysis should look similar to the following:
+When you open the console, you will will see the following results:
 
-(insert screenshot here)
+![image](https://github.com/HJandu/Console-Finances/blob/main/Images/screenshot.jpg)
+
+&copy;Hardip Jandu
