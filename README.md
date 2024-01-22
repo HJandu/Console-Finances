@@ -28,6 +28,6 @@ When you open the console, you will will see the following results:
 
 ![image](https://github.com/HJandu/Console-Finances/blob/main/Images/screenshot.jpg)
 
-To view the deployed page, please click [here]("
+To view the deployed page, please click [here](https://hjandu.github.io/Console-Finances/)
 
 &copy;Hardip Jandu
