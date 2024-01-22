@@ -86,3 +86,63 @@ var finances = [
   ['Jan-2017', 138230],
   ['Feb-2017', 671099],
 ];
+
+let months = finances.length; //adds up how indexes are in the array
+let totalProfitLoss = 0;
+let previousMonthAmount = 0;
+let endOfMonthCash;
+let monthlyChange = 0;
+let financesSubArray;
+let month;
+let totalChange = 0;
+let greatProfit = ["", 0]
+let greatLoss = ["", 1000000000]
+
+for(let i=0; i < months; i++){
+  financesSubArray = finances[i]; // each individual array inside of the finances array. ex. ['Jan-2010', 867884] at finances[0]
+
+  month = financesSubArray[0]; // equivalent of finances[i][0]; to be used later in the console.log
+  endOfMonthCash = financesSubArray[1]; // equiv. of finances[i][1]
+  totalProfitLoss += endOfMonthCash;  //the running total
+  
+  //next, the monthlyChange only gets updated if the index is > 0, or !==0, as a few of you had it during class
+  if (i > 0) monthlyChange = endOfMonthCash - previousMonthAmount;
+  console.log({monthlyChange})
+  totalChange += monthlyChange;
+
+  if (monthlyChange > greatProfit [1]){
+    greatProfit = [month, monthlyChange];
+  }
+
+  if (monthlyChange < greatLoss [1]){
+    greatLoss = [month, monthlyChange];
+  }
+
+  //then, we UPDATE the previous month's amount to the current end of month amount, in order to prepare for the next cycle thru the loop
+  previousMonthAmount = endOfMonthCash;
+  console.log({previousMonthAmount})
+}
+
+console.log(totalProfitLoss);
+
+let average = (totalChange/(months - 1));
+
+console.log(average);
+
+// round the average to 2dp
+let roundAve = average.toFixed(2);
+console.log(roundAve);
+
+
+console.log(greatProfit);
+
+console.log(greatLoss);
+
+// prints the final results to the console
+console.log(`Financial Analysis 
+----------------
+Total Months: ${months}
+Total: $ ${totalProfitLoss}
+Average Change: ${roundAve}
+Greatest Increase in Profits/Losses: ${greatProfit[0]} ${greatProfit[1]}
+Greatest Decrease in Profits/Losses: ${greatLoss[0]} ${greatLoss[1]}`);                          
